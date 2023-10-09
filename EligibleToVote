@@ -16,3 +16,6 @@ class EligibleToVote {
         }
     }
 }
+output:
+Please enter your age: 25
+Congratulations, you are eligible for voting.
