@@ -1,0 +1,25 @@
+class MathOperations {
+    private int a;
+    private int b;
+
+    void add() {
+        System.out.println("a + b = " + (a + b));
+    }
+}
+
+class Multiply extends MathOperations {
+    void mul() {
+        System.out.println("a * b = " + (a * b));
+    }
+}
+
+public class Maths {
+    public static void main(String args[]) {
+        Multiply s = new Multiply();
+        s.add();
+        s.mul();
+    }
+}
+output:
+a + b = 0
+a * b = 0
